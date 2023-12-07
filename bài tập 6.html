@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Create Account</h2>
+        <fieldset>
+            <legend>Registration infomation</legend>
+            <label for="first name">First name*:<input type="text" placeholder="enter your first name" id="first name"></label>
+            <label for="lastname">Last name*:<input type="text" placeholder="enter your last name" id="last name"></label><br>
+            <label for="email">Email*:<input type="text" placeholder="enter your email" id="email"></label>
+            <label for="phone">Phone*:<input type="text" placeholder="enter your phone number" id="phone"></label><br>
+            <label for="password">Password*:<input type="password" placeholder="enter your password" id="password"></label>
+            <label for="confirm">Confirm Password*:<input type="password" placeholder="enter your password again" id="confirm"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Personal infomation</legend>
+            <label for="">Gender:
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+            </label>
+            <label for="">Hobbies:
+                <input type="checkbox">Music
+                <input type="checkbox">Sports
+                <input type="checkbox">Travel
+                <input type="checkbox">Movies
+            </label><br>
+            <label for="">Source of Income:
+                <select>
+                    <option value="Employed">Employed</option>
+                    <option value="Finace">Finace</option>
+                </select>
+            </label>
+            <label for="">Income:<input type="range" min="0" max="100"></label><br>
+            <label for="age">Age:<input type="text" id="age"></label>
+            <label for="">Profile Picture:<input type="file" value="Choose File"></label><br>
+            <label for="">Birthday:<input type="date"></label>
+            <label for="">Address:<input type="text"></label><br>
+            <label for="">Bio:</label>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="submit" value="Create"><input type="reset" value="Reset">
+    </form>  
+</body>
+</html>
